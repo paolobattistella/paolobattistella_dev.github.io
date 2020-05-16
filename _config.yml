@@ -13,6 +13,15 @@ plugins:
 minima:
   date_format: "%-d %b %Y"
 
+show_excerpts: true # set to true to show excerpts on the homepage
+
+# Minima: custom header links
+header_pages:
+  - _pages/about.md
+
+include:
+  - _pages
+
 # generate social links in footer
 github_username: paolobattistella
 linkedin_username: paolobattistella
