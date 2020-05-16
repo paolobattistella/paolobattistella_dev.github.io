@@ -3,14 +3,16 @@ title: PaoloBattistella.dev
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Minima settings
-minima:
-  # generate social links in footer
-  social_links:
-    linkedin: paolobattistella
-
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# Minima settings
+minima:
+  date_format: "%-d %b %Y"
+
+# generate social links in footer
+github_username: paolobattistella
+linkedin_username: paolobattistella
