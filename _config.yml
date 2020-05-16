@@ -1,3 +1,10 @@
-theme: jekyll-theme-hacker
+# Site settings
+title: PaoloBattistella.dev
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-name: PaoloBattistella.dev
+# Build settings
+theme: jekyll-theme-hacker
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
