@@ -8,3 +8,9 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# Minima settings
+minima:
+  # generate social links in footer
+  social_links:
+    linkeding: https://www.linkedin.com/in/paolobattistella/
