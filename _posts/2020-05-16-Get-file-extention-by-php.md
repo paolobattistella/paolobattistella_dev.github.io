@@ -1,5 +1,3 @@
-#Get file extenstion by PHP
-
 Different approaches to get file extentions by PHP
 
 ```php
