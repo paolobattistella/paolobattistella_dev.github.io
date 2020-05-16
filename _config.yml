@@ -13,4 +13,4 @@ plugins:
 minima:
   # generate social links in footer
   social_links:
-    linkeding: https://www.linkedin.com/in/paolobattistella/
+    linkedin: https://www.linkedin.com/in/paolobattistella/
