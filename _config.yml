@@ -15,6 +15,7 @@ minima:
 
 show_excerpts: true # set to true to show excerpts on the homepage
 markdown: kramdown # markdown processor
+google_analytics: UA-1464007-10
 
 # Minima: custom header links
 header_pages:
