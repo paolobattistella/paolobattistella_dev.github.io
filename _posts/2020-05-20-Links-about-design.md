@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Links about design"
+categories: design
+---
 
 ##Mobbin - Latest Mobile Design Patterns
 https://mobbin.design/

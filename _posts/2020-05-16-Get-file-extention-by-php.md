@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Different approaches to get file extentions by PHP"
+categories: development
+---
+
 Different approaches to get file extentions by PHP
 
 ```php
