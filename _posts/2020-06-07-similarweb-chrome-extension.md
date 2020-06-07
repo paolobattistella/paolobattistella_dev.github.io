@@ -5,7 +5,7 @@ categories: marketing
 tags: analysis
 ---
 
-GitHub: [similarweb]
+Web Site: [similarweb]
 Chrome Extension: [extension]
 
 See website traffic and key metrics for any website, including engagement rate, traffic ranking, keyword ranking and traffic source.
