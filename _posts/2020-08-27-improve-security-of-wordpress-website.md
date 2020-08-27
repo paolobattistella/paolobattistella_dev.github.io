@@ -5,10 +5,10 @@ categories: development
 tags: php
 ---
 
-#Improve security of Wordpress web site
+# Improve security of Wordpress web site
 Improve security adding rules to .htaccess file
 
-##Protect system files
+## Protect system files
 ```
 <Files .htaccess>
 	<IfModule mod_authz_core.c>
@@ -53,7 +53,7 @@ Improve security adding rules to .htaccess file
 </Files>
 ```
 
-##Hide internal path
+## Hide internal path
 ```
 RewriteRule ^wp-admin/install\.php$ - [F]
 RewriteRule ^wp-admin/includes/ - [F]
@@ -66,20 +66,20 @@ RewriteCond %{REQUEST_FILENAME} -f
 RewriteRule (^|.*/)\.(git|svn)/.* - [F]
 ```
 
-##Disable PHP files
+## Disable PHP files
 ```
 RewriteRule ^wp\-content/uploads/.*\.(?:php[1-7]?|pht|phtml?|phps)$ - [NC,F]
 RewriteRule ^wp\-content/plugins/.*\.(?:php[1-7]?|pht|phtml?|phps)$ - [NC,F]
 RewriteRule ^wp\-content/themes/.*\.(?:php[1-7]?|pht|phtml?|phps)$ - [NC,F]
 ```
 
-##Filter Request Methods
+## Filter Request Methods
 ```
 RewriteCond %{REQUEST_METHOD} ^(TRACE|DELETE|TRACK) [NC]
 RewriteRule ^.* - [F]
 ```
 
-##Disable XML-RPC
+## Disable XML-RPC
 ```
 <Files xmlrpc.php>
 	<IfModule mod_authz_core.c>

@@ -5,14 +5,14 @@ categories: development
 tags: php
 ---
 
-#Switch php version of Apache and CLI
+# Switch php version of Apache and CLI
 
-##Interactive switching mode
+## Interactive switching mode
 ```
 sudo update-alternatives --config php
 ```
 
-##Manual Switching
+## Manual Switching
 From PHP 5.6 => PHP 7.x
 Default PHP 5.6 is set on your system and you need to switch to PHP 7.x.
 
