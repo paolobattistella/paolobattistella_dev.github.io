@@ -5,7 +5,6 @@ categories: development
 tags: php
 ---
 
-# Improve security of Wordpress web site
 Improve security adding rules to .htaccess file
 
 ## Protect system files
