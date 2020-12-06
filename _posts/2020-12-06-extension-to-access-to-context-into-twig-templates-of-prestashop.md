@@ -73,9 +73,9 @@ Hello, I'm { { from_context('employee.firstname') } }.
 ```
 
 ```
-{% if from_context('employee.id_profile') is constant('_PS_ADMIN_PROFILE_')  %}
+{ % if from_context('employee.id_profile') is constant('_PS_ADMIN_PROFILE_')  % }
 Hello, I'm administrator.
-{% endif %}
+{ % endif % }
 ```
 
 ## Contributor
