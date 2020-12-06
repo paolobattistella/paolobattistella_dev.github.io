@@ -53,30 +53,6 @@ class PsContext extends \Twig_Extension
 }
 ```
 
-Add `Twig` extension to services of your module.
-
-Add following lines to `services.yml`:
-
-```
-  mymodule.twig.ps_context_extension:
-    class: MyModule\Twig\Extension\PsContext
-    tags:
-      - { name: twig.extension }
-```
-
-## Usage
-
-e.g.
-
-```
-Hello, I'm {{ from_context('employee.firstname') }}.
-```
-
-```
-{% if from_context('employee.id_profile') is constant('_PS_ADMIN_PROFILE_')  %}
-Hello, I'm administrator.
-{% endif %}
-```
 
 ## Contributor
 
