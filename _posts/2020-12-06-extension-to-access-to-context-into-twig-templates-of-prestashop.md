@@ -53,6 +53,17 @@ class PsContext extends \Twig_Extension
 }
 ```
 
+Add `Twig` extension to services of your module.
+
+Add following lines to `services.yml`:
+
+```
+  mymodule.twig.ps_context_extension:
+    class: MyModule\Twig\Extension\PsContext
+    tags:
+      - { name: twig.extension }
+```
+
 
 ## Contributor
 
