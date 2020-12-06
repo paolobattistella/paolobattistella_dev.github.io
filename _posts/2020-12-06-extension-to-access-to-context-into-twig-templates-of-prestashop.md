@@ -69,9 +69,14 @@ Add following lines to `services.yml`:
 e.g.
 
 ```
-Hello, I'm {{ from_context('employee.firstname') }}.
+Hello, I'm { { from_context('employee.firstname') } }.
 ```
 
+```
+{% if from_context('employee.id_profile') is constant('_PS_ADMIN_PROFILE_')  %}
+Hello, I'm administrator.
+{% endif %}
+```
 
 ## Contributor
 
