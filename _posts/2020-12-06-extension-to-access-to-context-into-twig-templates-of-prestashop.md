@@ -57,7 +57,7 @@ Add `Twig` extension to services of your module.
 
 Add following lines to `services.yml`:
 
-```yml
+```
   mymodule.twig.ps_context_extension:
     class: MyModule\Twig\Extension\PsContext
     tags:
@@ -68,11 +68,11 @@ Add following lines to `services.yml`:
 
 e.g.
 
-```twig
+```
 Hello, I'm {{ from_context('employee.firstname') }}.
 ```
 
-```twig
+```
 {% if from_context('employee.id_profile') is constant('_PS_ADMIN_PROFILE_')  %}
 Hello, I'm administrator.
 {% endif %}
