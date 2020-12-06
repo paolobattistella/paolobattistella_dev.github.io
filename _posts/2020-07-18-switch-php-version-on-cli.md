@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "Switch php version"
+title: "witch php version of Apache and CLI"
 categories: development
 tags: php
 ---
-
-# Switch php version of Apache and CLI
 
 ## Interactive switching mode
 ```
