@@ -64,6 +64,14 @@ Add following lines to `services.yml`:
       - { name: twig.extension }
 ```
 
+## Usage
+
+e.g.
+
+```
+Hello, I'm {{ from_context('employee.firstname') }}.
+```
+
 
 ## Contributor
 
