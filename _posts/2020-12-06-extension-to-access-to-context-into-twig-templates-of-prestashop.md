@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Extension to access properties of context into `twig` templates of Prestashop"
+title: "Extension to access properties of context into twig templates of Prestashop"
 categories: development
 tags: php
 ---
