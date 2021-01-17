@@ -36,3 +36,7 @@ https://plugins.jetbrains.com/plugin/7320-php-annotations/
 ## Symfony support
 Support for Symfony framework / components.
 https://plugins.jetbrains.com/plugin/7219-symfony-support/
+
+## Twig
+Provides Twig Template Language support.
+https://plugins.jetbrains.com/plugin/7303-twig
