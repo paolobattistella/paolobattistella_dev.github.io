@@ -8,6 +8,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
 
 # Minima settings
 minima:
@@ -16,6 +17,10 @@ minima:
 show_excerpts: true # set to true to show excerpts on the homepage
 markdown: kramdown # markdown processor
 google_analytics: UA-1464007-10
+
+# Pagination
+paginate: 10
+paginate_path: "/page:num/"
 
 # Minima: custom header links
 header_pages:
