@@ -1,7 +1,7 @@
 # Site settings
 title: PaoloBattistella.dev
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://paolobattistella.dev" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
