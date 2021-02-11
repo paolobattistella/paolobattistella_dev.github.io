@@ -4,15 +4,25 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://paolobattistella.dev" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-paginate
+remote_theme: samarsault/plainwhite-jekyll
 
-# Minima settings
-minima:
+plainwhite:
+  name: Paolo Battistella
+  tagline: Web Artisan
+
+  html_lang: "en"
   date_format: "%-d %b %Y"
+  dark_mode: true
+  search: true
+
+  social_links:
+    github: paolobattistella
+    linkedIn: it/paolobattistella # format: locale/username
+
+  portfolio_image: "assets/img/me.jpeg"
+
+  sitemap: true
+  analytics_id: UA-1464007-10
 
 show_excerpts: true # set to true to show excerpts on the homepage
 markdown: kramdown # markdown processor
@@ -28,7 +38,3 @@ header_pages:
 
 include:
   - _pages
-
-# generate social links in footer
-github_username: paolobattistella
-linkedin_username: paolobattistella
