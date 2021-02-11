@@ -15,6 +15,10 @@ plainwhite:
   dark_mode: true
   search: true
 
+  navigation:
+    - title: About me
+      url: "/about"
+
   social_links:
     github: paolobattistella
     linkedIn: in/paolobattistella
