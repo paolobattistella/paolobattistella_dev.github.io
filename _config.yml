@@ -12,7 +12,7 @@ plainwhite:
 
   html_lang: "en"
   date_format: "%-d %b %Y"
-  search: true
+  search: false
 
   navigation:
     - title: About me
